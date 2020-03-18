@@ -1,0 +1,200 @@
+body {
+
+    background-color: #000000; 
+    background: url(https://www.myfreetextures.com/wp-content/uploads/2014/12/hazard-stripes-wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+header {
+ 
+    background-color:crimson; 
+    height: 40vh; border: solid 3px rgb(135, 252, 3); 
+    border-radius: 20px;
+
+}
+    
+
+
+#logo{
+    
+    height: 120px; 
+    width: auto; 
+    margin-left: 60px; 
+    margin-top: 20px; 
+    padding-top: 20px; 
+    float: left;         
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 2px; 
+    
+}
+
+#mainHeadline{
+
+    float: right; 
+    font-size: 40px; 
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    padding-right: 300px;
+
+}
+
+    
+#mainHeadlineSub{
+
+    font-size: 22px; 
+    margin-right: 20px;
+}
+                  
+nav {
+    padding-top: 160px;
+}
+
+.navLinks {
+    display: inline-block; 
+    background-color: crimson; 
+    margin-left: 10px;
+}
+
+.navButtons{
+
+    background-color: black; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+                    
+                        
+main {
+
+    margin-top: 20px; 
+    text-align: center;        
+    background-color: crimson; 
+    height: auto; 
+    border: solid 3px rgb(135, 252, 3); 
+    border-radius: 20px; 
+    vertical-align: middle;
+
+}
+            
+#rightArrowDiv{
+
+    padding-top: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid red;
+    border-bottom: 50px solid transparent; 
+    display: inline; 
+    margin-right: 20px;
+}
+
+.mainPs {
+
+    display: inline-block; 
+    background-color: crimson; 
+    width: 20vw; 
+    vertical-align: middle;
+}
+
+#leftArrow {
+
+    border-top: 50px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 50px solid transparent; 
+    display: inline; 
+    margin-left: 20px; 
+    vertical-align: middle;
+
+}
+
+footer {
+
+    margin-top: 20px;
+    background-color:crimson; 
+    height: 24vh; 
+    border: solid 3px rgb(135, 252, 3); 
+    border-radius: 20px;
+
+}
+             
+#footerDiv {
+
+    vertical-align: top;
+    display: inline-block; 
+    width: 30vw; 
+    margin-left: 20px;
+}
+            
+.footerLinks{
+
+    vertical-align: top; 
+    display: inline-block; 
+    background-color: crimson; 
+    width: 30vw;
+
+}
+
+.footerLinksListItems{
+
+    display: inline-block; 
+    background-color: crimson; 
+    margin-left: 10px;
+
+}
+
+.footerLinkButtons{
+
+    background-color: black; 
+    padding: 10px; 
+    border-radius: 5px;
+
+}
+
+.footerInternalCopy{
+
+    color: blanchedalmond;
+
+}
+
+#footerFormContainer{
+
+    display: inline-block; 
+    background-color: crimson; 
+    width: 30vw;
+
+}
+
+#footerImage{
+
+    height: 60px; width: auto; 
+    float: left; 
+    margin-top: 17px; 
+    margin-right: 5px;
+
+}
+
+#footerSubmitStyle{
+
+    background-color: black; 
+    padding: 5px; 
+    border-radius: 5px; 
+    color: blanchedalmond;
+
+}
+                
+#footerLinkContainer{
+
+    display: block; 
+    float: left; 
+    margin-top: -30px; 
+    padding-left: 20px;
+
+}
+            
+#footerLinkStyle{
+    color: aliceblue; 
+    font-weight: bold;
+}
+                   
