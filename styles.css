@@ -93,7 +93,7 @@ main {
 .mainPs {
 
     display: inline-block; 
-    background-color: crimson; 
+
     width: 20vw; 
     vertical-align: middle;
 }
@@ -131,7 +131,7 @@ footer {
 
     vertical-align: top; 
     display: inline-block; 
-    background-color: crimson; 
+
     width: 30vw;
 
 }
@@ -139,7 +139,7 @@ footer {
 .footerLinksListItems{
 
     display: inline-block; 
-    background-color: crimson; 
+
     margin-left: 10px;
 
 }
@@ -161,7 +161,7 @@ footer {
 #footerFormContainer{
 
     display: inline-block; 
-    background-color: crimson; 
+
     width: 30vw;
 
 }
