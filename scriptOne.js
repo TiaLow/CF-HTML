@@ -10,13 +10,37 @@ function myPassword() {
   }
 
   function justDance() {
+    var x = document.getElementById("peps").value;
+    var y = 0;
+    if (x > 0 || x <= 100){
 
+        for (let i = 0; i < x ; i++){
+            
+            console.log("one iteration");
+            y++;
+
+        }
+
+        document.getElementById("bottles").innerHTML = "We have more than "+ y + " bottles!";
+        document.getElementById("keyButton").style.visibility = 'visible';
+
+    }  else {
+        document.getElementById("bottles").innerHTML = "We will figure it out!";
+        document.getElementById("keyButton").style.visibility = 'visible';
+
+    }
+    
+
+   
+  }
+
+
+  function letMeInAlready(){
         document.getElementById("wrapperDiv").style.visibility = 'visible';
         document.getElementById("nav").style.visibility = 'visible';
         document.getElementById("passwordDiv").style.display = 'none';
         document.getElementById("passwordDiv2").style.display = 'none';
 
-   
   }
 
 
