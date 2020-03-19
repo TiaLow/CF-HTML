@@ -17,6 +17,9 @@ header {
 
 }
     
+#nameButton{
+    color: red;
+}
 
 
 #logo{
@@ -188,7 +191,7 @@ footer {
 
     display: block; 
     float: left; 
-    margin-top: -30px; 
+    margin-top: -40px; 
     padding-left: 20px;
 
 }

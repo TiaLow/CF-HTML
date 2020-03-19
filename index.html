@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="styles.css">
    
-    <title>Fisrt HTML page</title>
+    <title>First HTML page</title>
   </head>
     <body>
         <div>
@@ -36,9 +36,7 @@
                                 <a 
                                  href="https://swannmitch.github.io/htmlbiz/">Swann's site</a></button></li>
                         <li class="navLinks">
-                            <button class="navButtons" >
-                                <a 
-                                href="https://swannmitch.github.io/htmlbiz/">Swann's site</a></button></li>        
+                            <button id="nameButton" class="navButtons" onclick="myPromptFunction()">Show me</button></li>        
                     </ul>
                 </nav>
             </header>
@@ -105,17 +103,19 @@
                 <img id="footerImage" src="https://image.shutterstock.com/image-vector/open-envelope-biohazard-symbol-260nw-1361697998.jpg" 
                 alt="LOGO" 
                >
-
+               
                 
-                <form >
-                    <label for="fname">First name:</label><br>
+                <form id="emailForm">
+                    <label for="fname">Subscriber name:</label><br>
                     <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Last name:</label><br>
+                    <label for="lname">Email:</label><br>
                     <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                    <input id="footerSubmitStyle" type="submit" value="Submit" >
+                    <input onclick="myConfirmFunction()" id="footerSubmitStyle" type="button" value="Submit" >
+                    
                   </form>
-
-                   
+                  
+                  <p id="email"></p>
+                  
             </div>  
             
                
@@ -146,6 +146,32 @@ function colorize2() {
     var element3 = document.getElementById("footer");
     element3.style.backgroundColor = 'green';
 }
+
+
+function myConfirmFunction() {
+  var txt;
+  var r = confirm("Thank you for subscribing!");
+  if (r == true) {
+    txt = "Email Sent";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+var element = document.getElementById("emailForm");
+    element.style.display = 'none';
+var element2 = document.getElementById("footerLinkContainer");
+    element2.style.paddingTop = '40px';
+
+  document.getElementById("email").innerHTML = txt;
+}
+
+function myPromptFunction() {
+  var person = prompt("Please enter your name", "John Doe");
+  if (person != null) {
+    document.getElementById("mainHeadlineSub").innerHTML =
+person + " buy some amazing Anti-Corona virus plutonium pills!";
+  }
+}
+
         </script>  
 
     </body>
