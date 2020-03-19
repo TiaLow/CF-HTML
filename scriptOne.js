@@ -1,6 +1,6 @@
 function myPassword() {
     var x = document.getElementById("myPass").value;
-    if (x == 'open'){
+    if (x == 'open' || x == 'Open'){
         console.log("we got the name");
         document.getElementById("passwordDiv2").style.visibility = 'visible';
         document.getElementById("passwordDiv").style.visibility = 'hidden';
