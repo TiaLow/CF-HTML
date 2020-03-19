@@ -1,4 +1,23 @@
+function myPassword() {
+    var x = document.getElementById("myPass").value;
+    if (x == 'open'){
+        console.log("we got the name");
+        document.getElementById("passwordDiv2").style.visibility = 'visible';
+        document.getElementById("passwordDiv").style.visibility = 'hidden';
+    } else {
+        document.getElementById("checker").innerHTML = "Try again; it's not \'"+ x + "'";
+    }
+  }
 
+  function justDance() {
+
+        document.getElementById("wrapperDiv").style.visibility = 'visible';
+        document.getElementById("nav").style.visibility = 'visible';
+        document.getElementById("passwordDiv").style.display = 'none';
+        document.getElementById("passwordDiv2").style.display = 'none';
+
+   
+  }
 
 
 function colorize() {

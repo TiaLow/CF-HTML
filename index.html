@@ -8,73 +8,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="styles.css">
    
-    <title>First HTML page</title>
+    <title>Poison Goop</title>
   </head>
     <body>
-        <div>
+        <div id="passwordDiv">
+            <p>HELLO</p>
+            <p>What is the Password?</p>
+            <input type="text" id="myPass" value="pass">
+            <button onclick="myPassword()">Try it</button>
+            <p id="checker"></p>
+
+            <div id="passwordDiv2">
+                <p>Welcome</p>
+                <p>How many people live at your house?</p>
+                <input type="text" id="peps" value="1">
+                <button onclick="justDance()">Try it</button>
+            </div>
+        </div>
+
+     
+
+        <nav id="nav">
+            <ul>
+                <li class="navLinks">
+                    <button class="navButtons" >
+                        <a 
+                         href="https://swannmitch.github.io/htmlbiz/" style="color: red; text-decoration: none;">Swann's site</a></button></li>
+                <li class="navLinks">
+                    <button id="nameButton" class="navButtons" onclick="myPromptFunction()">
+                        <a 
+                         href="#" style="color: red; text-decoration: none;">Show me</a></button></li>        
+            </ul>
+        </nav>
+
+       
+        <div id="wrapperDiv">
 
             <header id="header">
                
                
-               <a href="#"> 
-                   <img id="logo"
-
-                src="https://hellohumans.co/wp-content/uploads/2018/11/POISON.jpg" alt="LOGO">
+               <a href="#"> <div id="logo" style="color: transparent;">LOGO</div>
+                   
 
                 </a>
 
                 <div id="mainHeadline" >
-                    <p>Corona-Dont</p>
+                    <p>Gaga's Poison Goop</p>
                     
 
-                    <p id="mainHeadlineSub" >Anti-Corona virus plutonium pills!</p>
+                    <p id="mainHeadlineSub" >Anti-Corona virus plutonium juice!</p>
                    
                 </div>
 
-                <nav >
-                    <ul>
-                        <li class="navLinks">
-                            <button class="navButtons" >
-                                <a 
-                                 href="https://swannmitch.github.io/htmlbiz/">Swann's site</a></button></li>
-                        <li class="navLinks">
-                            <button id="nameButton" class="navButtons" onclick="myPromptFunction()">Show me</button></li>        
-                    </ul>
-                </nav>
+                
             </header>
 
+           
             <main id="main">
 
-                <div id="rightArrowDiv" ></div>
-
-                <div class="mainPs" >
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                       
-                       </p>
-                </div>
-               
-                <div  class="mainPs">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                       
-                       </p>
-                </div>
-                
-                <div class="mainPs">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                       
-                       </p>
-                </div>
-
-                <div id="leftArrow" ></div>
+                <div class="slider">
+                    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+                    <div class="slider__inner">
+                      <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+                        <h2 class="slider__caption">codepen</h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                      </div>
+                      <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                        <h2 class="slider__caption">newspaper-o</h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                      </div>
+                      <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+                        <h2 class="slider__caption">television</h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                      </div>
+                      <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                        <h2 class="slider__caption">diamond</h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
 
             </main>
 
