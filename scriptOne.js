@@ -1,5 +1,11 @@
 function myPassword() {
     var x = document.getElementById("myPass").value;
+
+    while ( x == "" || x == null){
+        document.getElementById("checker").innerHTML = "Try a password!";
+return;
+    }
+
     if (x == 'open' || x == 'Open'){
         console.log("we got the name");
         document.getElementById("passwordDiv2").style.visibility = 'visible';
@@ -7,12 +13,28 @@ function myPassword() {
     } else {
         document.getElementById("checker").innerHTML = "Try again; it's not \'"+ x + "'";
     }
+    
+
+    document.getElementById("checker").innerHTML = "Try again!";
   }
+
+
 
   function justDance() {
     var x = document.getElementById("peps").value;
     var y = 0;
-    if (x > 0 || x <= 100){
+
+
+
+    if ( x< 2) {
+y=1;
+        document.getElementById("bottles").innerHTML = "We have more than "+ y + " bottle!";
+        document.getElementById("keyButton").style.visibility = 'visible';
+
+    }
+
+
+    else if (x > 1 || x <= 100){
 
         for (let i = 0; i < x ; i++){
             
